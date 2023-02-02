@@ -6,3 +6,8 @@ https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/c
 ```
 machine github.com login <login-id> password <token-password>
 ```
+
+- Git push không c?n dang nh?p sau l?n th? 2
+```
+git config credential.helper cache
+```
